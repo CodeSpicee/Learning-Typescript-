@@ -40,5 +40,6 @@ class Person implements PersonInterface {
 }
 
 let person1 = new Person("Jamiu", "Afolabi", 24+1, "Nigeria", ['dancing', 'travelling', 'writing', 'seeing movies', 'playing games'])
+let person2 = new Person("Sodiq", "Afolabi", 24+1, "Nigeria", ['dancing', 'travelling', 'writing', 'seeing movies', 'playing games'])
 console.log(person1)
 console.log(person1.addName())

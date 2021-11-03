@@ -15,5 +15,6 @@ var Person = /** @class */ (function () {
     return Person;
 }());
 var person1 = new Person("Jamiu", "Afolabi", 24 + 1, "Nigeria", ['dancing', 'travelling', 'writing', 'seeing movies', 'playing games']);
+var person2 = new Person("Sodiq", "Afolabi", 24 + 1, "Nigeria", ['dancing', 'travelling', 'writing', 'seeing movies', 'playing games']);
 console.log(person1);
 console.log(person1.addName());
